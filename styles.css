@@ -1,0 +1,120 @@
+body {
+    background-color: #e7fff1;
+    margin: 0 0 20px 0;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.titleBar {
+    margin: 0;
+    background-color: #60c187;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+}
+.kaeruLogo {
+    height: 45px
+}
+.titleContents {
+    margin: 0 0 10px 20px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+h1 {
+    margin: 10px 0 10px 20px;
+}
+
+.mainContents {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h2 {
+    color: #47b473;
+    border-bottom: 2px solid #60c187;
+    padding-right: 20px;
+    width: fit-content;
+}
+.sectionGreen {
+    color: #5ab84d;
+}
+.sectionYellow {
+    color: #C5AA36;
+}
+.sectionRed {
+    color: #CA5142;
+}
+
+.SNSLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+}
+.SNSLink * {
+    color: white;
+    width: 200px;
+    height: 2em;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SNSLink .XLink {
+    background-color: #000000;
+}
+.SNSLink .youtubeLink {
+    background-color: #FF0000;
+}
+.SNSLink .discordLink {
+    background-color: #404EED;
+}
+.SNSLink .blogLink {
+    background-color: #303030;
+}
+
+.linkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.linkBox {
+    text-align: center;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.linkTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+.linkDesc {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.contentGreen .linkBox {
+    border: 3px solid #74CD68;
+    background-color: #e4ffe0;
+}
+.contentGreen .linkDesc {
+    border-top: 1px solid #74CD68;
+}
+.contentYellow .linkBox {
+    border: 3px solid #d4ba45;
+    background-color: #fffbda;
+}
+.contentYellow .linkDesc {
+    border-top: 1px solid #C5AA36;
+}
+.contentRed .linkBox {
+    border: 3px solid #d75e4f;
+    background-color: #ffdcda;
+}
+.contentRed .linkDesc {
+    border-top: 1px solid #CA5142;
+}
